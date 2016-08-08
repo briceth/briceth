@@ -1,0 +1,19 @@
+/* TODO: Put your CSS code in here */
+body {
+  background-color: #7F7F7F;
+}
+.container {
+  width: 1170px;
+  text-align: center;
+  padding: 100px;
+}
+#coord {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
