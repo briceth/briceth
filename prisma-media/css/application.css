@@ -1,0 +1,110 @@
+body {
+  font-size: 14px;
+  color: #000000;
+  line-height: 24px;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: black;
+}
+
+#space {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  animation: animate-background linear 20s infinite;
+  background-attachment: fixed;
+}
+@keyframes animate-background {
+  from { background-position: 0px; }
+  to { background-position: -300px; }
+}
+#logo {
+  position: absolute;
+  bottom: 150px;
+  left: 250px;
+}
+
+.header {
+  min-height: 100vh;
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 90%;
+}
+
+.texte_1 {
+  margin-top: 100px;
+  padding-left: 90px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+}
+
+#jediSith {
+  height: 500px;
+  width: 100%;
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+.texte_2 {
+  width: 570px;
+}
+
+.section_2 {
+/*  width: 70%;*/
+/*  padding-left: 200px;*/
+}
+.left {
+  padding-left: 140px;
+}
+.right {
+  padding-right: 140px;
+}
+.texte_3 {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+#stormtroopers {
+  height: 310px;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: animate-background linear 20s infinite;
+}
+@keyframes animate-background {
+  from { background-position: 0px; }
+  to { background-position: -300px; }
+}
+
+#darthvader {
+  height: 50vh;
+  background-size:cover;
+  color: white;
+}
+
+li {
+  display: inline;
+}
+
+.information {
+  display: flex;
+}
+p {
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
